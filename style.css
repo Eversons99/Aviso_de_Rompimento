@@ -181,6 +181,7 @@ a {
     max-width: auto;
     font-size: 22px;
     max-height: 90%;
+    text-align: center;
   }
   .contato .logo {
     flex-direction: column;
