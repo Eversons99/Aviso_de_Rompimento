@@ -1,0 +1,253 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: gray;
+}
+b {
+  color: #fcaf17;
+}
+
+.container {
+  max-width: 800px;
+  max-height: 90%;
+  background: #042698;
+  display: flex;
+  flex-direction: column; /*Colocando os elementos filhos um abaixo do outro*/
+  align-items: center; /*Alinhando o conteudo ao centro*/
+  flex-wrap: nowrap;
+  margin: 10px auto 10px auto; /*Centralizando a div continer*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  color: white;
+  word-break: keep-all;
+}
+
+.img-alert {
+  margin-top: 25px;
+  max-width: 150px;
+  max-height: 150px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.conteudo {
+  max-width: 80%;
+}
+
+.titulo {
+  font-size: 50px;
+  margin: 15px;
+}
+
+.agradecimento {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 65px;
+}
+
+.agradecimento_final {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.item {
+  background: red;
+  flex-direction: row;
+}
+
+.contato {
+  display: flex;
+  width: 70%;
+  margin-top: 0px;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  background: white;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  color: #fcaf17;
+  justify-content: space-between;
+}
+
+.logo img {
+  max-height: 35px;
+  max-width: 35px;
+  padding: 2px;
+  margin: 10px;
+}
+
+.telefone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+  padding-bottom: 1px;
+}
+
+.item-flex {
+  justify-content: space-between;
+  margin: 5px;
+  padding: 0;
+}
+
+.logonm {
+  display: flex;
+  align-items: center;
+}
+
+.paragrafo {
+  padding-bottom: 15px;
+}
+
+.logonm img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: #fcaf17;
+}
+@media (max-width: 630px) {
+  .container {
+    background: #042698;
+    max-width: auto;
+    font-size: 20px;
+    max-height: 90%;
+  }
+  .contato .logo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 10px auto 10px auto;
+  }
+  .logonm img {
+    max-width: 130px;
+    max-height: 130px;
+  }
+  .telefone {
+    font-size: 15px;
+  }
+
+  .img-alert {
+    margin-top: 10px;
+    max-width: 100px;
+    max-height: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .titulo {
+    font-size: 50px;
+    margin: 15px;
+  }
+  .telefone img {
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  .agradecimento {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 65px;
+  }
+
+  .agradecimento_final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .paragrafo {
+    padding-bottom: 15px;
+  }
+  .titulo {
+    font-size: 40px;
+    margin: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    background: #042698;
+    max-width: auto;
+    font-size: 22px;
+    max-height: 90%;
+  }
+  .contato .logo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 8px auto 8px auto;
+  }
+
+  .logonm img {
+    max-width: 120px;
+    max-height: 120px;
+    margin: 0;
+  }
+  .telefone {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .img-alert {
+    margin-top: 10px;
+    max-width: 90px;
+    max-height: 90px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .titulo {
+    font-size: 50px;
+    margin: 15px;
+  }
+  .telefone img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .agradecimento {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 40px;
+    font-size: 22px;
+  }
+
+  .agradecimento_final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 22px;
+  }
+  .paragrafo {
+    padding-bottom: 10px;
+  }
+  .titulo {
+    font-size: 45px;
+    margin: 15px;
+  }
+
+  .item-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .contact {
+    padding: 8px;
+  }
+}
