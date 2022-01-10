@@ -10,7 +10,7 @@ b {
 .container {
   max-width: 800px;
   max-height: 90%;
-  background: #042698;
+  background: #1e669b;
   display: flex;
   flex-direction: column; /*Colocando os elementos filhos um abaixo do outro*/
   align-items: center; /*Alinhando o conteudo ao centro*/
@@ -116,7 +116,7 @@ a {
 }
 @media (max-width: 630px) {
   .container {
-    background: #042698;
+    background: #1e669b;
     max-width: auto;
     font-size: 20px;
     max-height: 90%;
@@ -177,7 +177,7 @@ a {
 
 @media (max-width: 450px) {
   .container {
-    background: #042698;
+    background: #1e669b;
     max-width: auto;
     font-size: 22px;
     max-height: 90%;
